@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     title: '取得title和url',
     id: 'getUrlMD',
-    contexts: ['all']
+    contexts: ['page']
   });
 });
 
